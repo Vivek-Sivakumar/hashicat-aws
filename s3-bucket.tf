@@ -3,5 +3,4 @@ module "s3_bucket" {
   version = "~> 3.0"
 
   bucket = "${var.prefix}-s3-bucket"
-  acl    = "log-delivery-write"
 }
