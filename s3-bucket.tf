@@ -8,6 +8,6 @@ module "s3_bucket" {
 
 terraform {
   required_providers {
-    aws = ">= =3.42.0" # or anything higher than 4.5.0
+    aws = "=3.42.0" # or anything higher than 4.5.0
   }
 }
